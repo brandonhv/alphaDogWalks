@@ -26,7 +26,7 @@ html, body {
 .content-container {
   display: flex;
   height: 100vh;
-  background: turquoise;
+  /* background: turquoise; */
 }
 
 .dog-walker {
@@ -46,7 +46,7 @@ html, body {
 .right-container {
   display: flex;
   flex-basis: 60%;
-  background: rgb(59, 59, 217);
+  /* background: rgb(59, 59, 217); */
 }
 
 .paws-print {
@@ -62,8 +62,37 @@ html, body {
   max-width: 50vw;
   margin-top: 2rem;
   margin-left: 2rem;
-  background: violet;
+  background: rgba(211, 214, 223, 0.84);
+  border-radius: 0.5rem;
 }
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 13rem;
+
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 4rem;
+  gap: 1.5rem; /* space between inputs */
+}
+
+.form-name {
+  max-width: 12rem;
+}
+
+.form-datetime{
+  max-width: 15rem;
+}
+
+
+.form-inputs input {
+  height: 100%;  
+  flex: 1;  
+}
+
+
 
 /* Style for PHONES */
 .section-content-container {
